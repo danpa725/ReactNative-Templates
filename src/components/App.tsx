@@ -5,11 +5,11 @@ import { ThemeProvider } from "styled-components/native";
 
 import AppLoading from "expo-app-loading";
 
-import ButtonCustome from "./atoms/Buttons/Button";
-
 import { darkTheme, lightTheme } from "@utils/style/CustomeTheme";
 import pallete from "@utils/style/pallete";
 import fontSize from "@utils/style/font";
+
+import ButtonCustome from "@components/molecules/Buttons/Button";
 
 import { AppContainer, ButtonContainer, WelcomeText } from "./App.style";
 //===============================================r================================
